@@ -1,3 +1,9 @@
-date,amount,category,description
-2005-08-30 00:00:00,69.0,Expense,this is the price of ur judo gi
-23-07-2024,69.0,Expense,this is the price of ur judo gi 2
+date,amount,category,description,balance
+22-07-2024,69.0,Income,this is the price of ur judo gi,1069
+23-07-2024,1000.0,Expense,first balance chck,69
+25-07-2024,100.0,Income,dflkjdsflikgj,169.0
+25-07-2024,100.0,Expense,plz,69.0
+25-07-2024,100.0,Expense,plz,-31.0
+25-07-2024,100.0,Expense,,-131.0
+25-07-2024,131.0,Income,back to zero babe,0.0
+22-07-2024,222.0,Income,none,222.0

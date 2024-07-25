@@ -13,10 +13,11 @@ def get_date(prompt, allow_default=False):
     
     else:
         try: 
-            valid_date = datetime.strptime(date_str, DATEFORMAT)
-            return valid_date
+            valid_date = datetime.strptime(date_str, DATEFORMAT).date()
+            formatted_date = valid_date.strftime("%d-%m-%Y")
+            return formatted_date
         except ValueError:
-            print(f'"{date_str}" IS INVALID. PLEASE ENTETR THE DATE IN dd-mm-yyyy format')
+            print(f'"{date_str}" IS INVALID. PLEASE ENTETR THE DATE IN {DATEFORMAT} format')
             return get_date(prompt)
 
 def get_amount():
